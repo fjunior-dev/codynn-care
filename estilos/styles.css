@@ -128,7 +128,7 @@ nav a:hover {
     height: 550px;
     border-radius: 20px;
     overflow: hidden;
-    max-width: 420px;
+    max-width: 420px; /* Posicionamento da imagem/hero */
 }
 
 .hero-image img {
@@ -524,3 +524,38 @@ footer {
     font-size: 0.9rem;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 3rem 5%;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .section-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .section-header .view-all {
+        font-size: 0.8rem;
+    }
+    .about-features .feature-card {
+        width: 90vw;
+    }
+
+    
+}

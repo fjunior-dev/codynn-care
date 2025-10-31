@@ -29,7 +29,7 @@ header {
 .logo {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4d4848;
+    color: #573e3e;
     letter-spacing: -0.5px;
 }
 
@@ -37,4 +37,172 @@ header {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6b35;
+}
+
+.icons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    transition: color 0.3s ease;
+}
+
+.icon-btn:hover {
+    color: #ff6b35;
+}
+
+.hero {
+    background: #fafafa;
+    padding: 5ren 5% 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    font-size: 1.05rem;
+    color: #666;
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+}
+
+.tags {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.tag::before {
+    content: "•";
+    color: #ff6b35;
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    position: relative;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card-hero {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    width: 260px;
+
+}
+
+.product-card-hero img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border: 0.1rem solid #ebebeb;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-card-hero h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 0.85rem;
+    background: #ff6b35;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+    background: #e55a28;
+}
+
+.product-card-hero .subtitle {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.product-card-hero .price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ff6b35;
+    margin-bottom: 1rem;
+}
+
+.product-section {
+    padding: 5rem 5%;
+    background: white;
+}
+
+
+
+
+
+
+
+.hero {
+    padding: 32px;
 }

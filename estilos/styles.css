@@ -357,3 +357,43 @@ nav a:hover {
    color: #1a1a1a;
    margin-bottom: 1rem;
 }
+
+.testimonials {
+    background: #fafafa;
+    padding: 5rem 5%;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    letter-spacing: -0.5px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-rating {
+    color: #ffa500;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+

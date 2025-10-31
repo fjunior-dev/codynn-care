@@ -78,7 +78,7 @@ nav a:hover {
 
 .hero {
     background: #fafafa;
-    padding: 5ren 5% 4rem;
+    padding: 5rem 5% 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
@@ -197,12 +197,78 @@ nav a:hover {
     background: white;
 }
 
+.about-section {
+    padding: 5rem 5%;
+    background: white;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.about-content p {
+    font-size: 1.05rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
 
 
+.about-features {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: stretch; /* Faz todos os cards terem a mesma altura */
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
 
+.feature-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.8rem 1.2rem;
+    text-align: center;
 
+    flex: 1 1 220px; /* grow | shrink | base-width */
+    min-width: 220px;        /* Largura mínima */
+    max-width: 260px;        /* Largura máxima */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
 
-.hero {
-    padding: 32px;
+.feature-card i {
+    font-size: 2rem;
+    color: #e55a28;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.feature-card p {
+    font-size: 0.92rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1; /* Faz o parágrafo ocupar espaço igual */
 }

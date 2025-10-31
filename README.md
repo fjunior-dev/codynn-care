@@ -1,16 +1,3 @@
-<!-- Banner / Hero Section -->
-<div align="center">
-
-## ✨ Shine Naturally with Morning Sun
-
-Awaken your skin's natural glow every morning.  
-Crafted with nature-powered ingredients to refresh and rejuvenate your complexion.
-
-<img src="imagens/img-hero.jpg" width="320" />
-
-</div>
-
----
 
 # codynn-care
 

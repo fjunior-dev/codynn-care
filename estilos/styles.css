@@ -397,3 +397,130 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+.newsletter {
+    background: #1a1a1a;
+    color: white;
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.newsletter p {
+    margin-bottom: 2rem;
+    color: #bbb;
+    font-size: 1.1rem;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 1.1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.newsletter-form button {
+    padding: 1.1rem 2.5rem;
+    background: #ff6b35;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background: #e55a28;
+}
+
+footer {
+    background: #0f0f0f;
+    color: #999;
+    padding: 4rem 5% 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-bottom: 3rem;
+    gap: 3rem;
+}
+
+.footer-brand h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.footer-brand p {
+    color: #999;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    max-width: 320px;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: #2a2a2a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #ff6b35;
+    transform: translateY(-3px);
+}
+
+.footer-column a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 0.8rem;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+
+.footer-column h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer-column a:hover {
+    color: #ff6b35;
+}
+
+.footer-bottom {
+    border-top: 1px solid #2a2a2a;
+    padding-top: 2rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
